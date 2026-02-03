@@ -154,5 +154,5 @@ print(canciones)
 usuario={"nombre": "fulano",
          "email":"fulano@gmail.com",
          "pswd":"aaa"}
-clave_valor_1, valorclave_valor_2, _ = usuario.items()
-print(clave, valor)
+clave_valor_1, clave_valor_2, _ = usuario.items()
+print(clave_valor_1,clave_valor_2)
